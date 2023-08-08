@@ -1,13 +1,16 @@
 -- github/copilot.vim
 return {
-
+  -- {
+  --   "github/copilot.vim",
+  -- },
+  --
   -- copilot
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
     build = ":Copilot auth",
     opts = {
-      suggestion = { enabled = true },
+      suggestion = { enabled = true, auto_trigger = false },
       panel = { enabled = true },
       filetypes = {
         markdown = true,
