@@ -17,3 +17,4 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map("i", "jj", "<esc>", { desc = "Escape insert mode" })
+
